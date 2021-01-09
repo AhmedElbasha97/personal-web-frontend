@@ -353,6 +353,17 @@ color: 64BBFD;
    color: 64BBFD;
 
 }
+#banner5 .countaineritem {
+    position: relative;
+    margin-top: 70px;
+    background-size: 150px;
+    width: 80%;
+    height: 657px;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+    justify-content: space-between;
+}
 #banner5 .row{
   position: relative ;  
   background-size: 150px;
@@ -399,17 +410,17 @@ margin: 0px;
   width: 80%;
 }
 
-#banner6 .cardCountainer{
-  position: relative;
-  background-size: 150px;
-  width: 100%;
-  height: 350px;
-  align-items: center;
-  padding: 10px 20px;
-  margin-bottom: 30px;
-  margin: auto;
-  display: flex;
-  
+#banner6 .cardCountainer {
+    position: relative;
+    background-size: 150px;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #banner6 .card{
@@ -463,13 +474,14 @@ margin: 0px;
   margin: 0 auto;
   width: 80%;
 }
-#banner7 .countainePlans{
-  height: 500px;
-  margin-top: 20px;
-  background-color: #F9F9FF;
-  display: flex;
-  margin-top: 100px ;
-  width: 100%;
+#banner7 .countainePlans {
+    height: 500px;
+    margin-top: 20px;
+    background-color: #F9F9FF;
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-between;
 }
 .innercircle {
   border-radius: 50%;
@@ -585,18 +597,17 @@ font-weight: 700;}
     height: 150px;
     width: 300px;
 }
-#footer .countainer{
-  position: relative ;  
-  margin-top: 70px;  
-  background-size: 150px;
-  width: 80%;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 0px;
-  margin: auto;
- 
+#footer .countainer {
+    position: relative;
+    margin-top: 70px;
+    background-size: 150px;
+    width: 74%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
 }
 #footer .column{
   padding: 10px;
