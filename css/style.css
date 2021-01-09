@@ -1,0 +1,673 @@
+a{
+    text-decoration: none;
+    color:inherit
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Cairo', sans-serif;
+}
+
+#headers .countainer{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+}
+#headers .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+#banner1{
+    width: 100%;
+    height: 581px;
+    background-color: #F9F9FF;
+   margin: 0;
+}
+#banner2{
+  width: 100%;
+  height: 581px;
+}
+#banner3{
+  width: 100%;
+  height: 709px;
+
+}
+#banner4{
+  width: 100%;
+  height: 171px;
+  background: linear-gradient(#64BBFD, #8195FF);
+
+}
+#banner5{
+  width: 100%;
+  height: 1000px;
+  
+
+}
+#banner6{
+  width: 100%;
+  height: 450px;
+  background-color: #F9F9FF;
+ margin: 0;
+}
+#banner7{
+  width: 100%;
+  height: 800px;
+
+ margin: 0;
+}
+#banner8{
+  width: 100%;
+  height: 700;
+  background-color: #F9F9FF;
+}
+#banner9{
+  width: 100%;
+  height: 171px;
+  background: linear-gradient(#64BBFD, #8195FF);
+
+}
+#footer {
+  width: 100%;
+  height: 400px;
+  background:#04091E
+
+}
+  #banner1 .countainer{
+      background-size: 150px;
+      width: 80%;
+      height: 473px;
+      display: flex;
+      align-items: center;
+      background-image: url(../img/hero-img.png);
+      background-position:100% 0;
+      background-size: 40% ;
+      padding-bottom: 50px;
+      background-repeat: no-repeat;
+      margin: auto;
+      padding: 0px;
+  }
+  #banner2 .countainer{
+    position: relative ;  
+    margin-top: 70px;  
+    background-size: 150px;
+    width: 80%;
+    height: 473px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/about-img.png);
+    background-position: 0% 50%;
+    background-size: 40%;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0;
+}
+
+  #banner1 .content{
+      
+      width: 40%;
+  }
+  #banner2 .content{
+    margin-left: 42%;
+    width: 50%;
+}
+  .nav .link{
+      font-size: 13px;
+      line-height: 22px;
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+  }
+  .nav .link:hover{
+    color: 64BBFD;
+  }    
+  .nav .activelink{
+       color: 64BBFD;
+
+   }
+   .nav .dropListLink{
+       color: black;
+   }
+  #banner1 .button{
+      text-decoration: none;
+      font-weight: 400;
+      color: beige;
+      height: 33px;
+      width: 150px;
+      text-transform: capitalize;
+      box-sizing: border-box;
+      padding:  6px 32px;
+      font-size: 13px;
+      
+      font-weight: 700;
+      line-height: 61px;
+    background: linear-gradient(#64BBFD, #8195FF);
+  }
+  #banner2 .button{
+    text-decoration: none;
+    font-weight: 400;
+    color: beige;
+    height: 33px;
+    width: 150px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding:  6px 32px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 61px;
+  background: linear-gradient(#64BBFD, #8195FF);
+}
+  .subheaderbanner{
+      margin-top: 0px;
+      height: 10px;
+      font-weight: 100;
+      margin-bottom: 11px;
+      text-transform: uppercase;
+  }
+  .headerbanner{
+
+    text-transform: uppercase;
+      width:442px;
+      height: 58px;
+    margin-top: 0px;
+      margin-bottom: 31px;
+      font-size: 50px;
+      font-weight: 700;
+  }
+  p{
+      margin: 0px;
+      font-size: 12px;
+  }
+  #banner3 .countainer{
+    position: relative ;  
+    margin-top: 70px;  
+    background-size: 150px;
+    width: 80%;
+    height: 473px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+ 
+}
+#banner3 .heading{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#banner3 .headerheading{
+    text-transform: uppercase;
+    margin: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 700;  
+}
+#banner3 .countaineritem{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 340px;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+  justify-content: space-between;
+  
+}
+
+#banner3 .row{
+    position: relative ;  
+    
+    background-size: 150px;
+    width: 80%;
+    height: 180px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.countaineritem .item{
+  padding: 10px;
+     text-align: center;
+    height: 150px;
+    width: 300px;
+}
+.item i{
+  margin-bottom: 15px;
+}
+.item h3{
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.item p{
+  width: 100%;
+  height: 50%;
+}
+#banner4 .countainer{
+
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 171;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+}
+
+#banner4 .row{
+  position: relative ;  
+  
+  background-size: 150px;
+  width: 80%;
+  height: 180px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#banner4 .item{
+  padding: 10px;
+     text-align: center;
+    height: 150px;
+    width: 300px;
+}
+#banner4 .item h1{
+  font-weight: 700;
+  margin: 0;
+}
+#banner4 .item .banner4h1{
+  color: beige;
+}
+#banner4 .item .banner4p{
+  color: beige;
+}
+#banner5 .countainer{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+
+}
+#banner5 .heading{
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#banner5 .headerheading{
+
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: 700;  
+}
+#banner5 .countainerlinks{
+  position: relative ;  
+  margin-top: 10px;  
+  width: 80%;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0 35% 0 37%;
+}
+.countainerlinks .link{
+  font-size: 13px;
+  line-height: 22px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.countainerlinks .link:hover{
+color: 64BBFD;
+}    
+.countainerlinks .activelink{
+   color: 64BBFD;
+
+}
+#banner5 .row{
+  position: relative ;  
+  background-size: 150px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.row .card{
+  padding:  10px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+}
+.card .countainer{
+  text-align: center;
+}
+
+.card  .banner5h {
+margin: 0px;
+}
+#banner6 .countainer{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+
+}
+#banner6 .heading{
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#banner6 .cardCountainer{
+  position: relative;
+  background-size: 150px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  margin: auto;
+  display: flex;
+  
+}
+
+#banner6 .card{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  height: 141px;
+  width: 351px;
+  align-items:left;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  display: -webkit-inline-box;
+}
+#banner6 .imgCountainer{
+ 
+  
+  text-align: center;
+  height: 80px;
+  width: 40px;
+  align-items:left;
+
+  margin-bottom: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex: none;
+}
+#banner6 .card .countainerCard{
+  text-align: initial;
+  height: 200px;
+  width: 327px;
+  padding-left: 10px;
+}
+#banner7 .countainer{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  padding: 0px;
+  margin: auto;
+
+}
+#banner7 .heading{
+  height: 250px;
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+#banner7 .countainePlans{
+  height: 500px;
+  margin-top: 20px;
+  background-color: #F9F9FF;
+  display: flex;
+  margin-top: 100px ;
+  width: 100%;
+}
+.innercircle {
+  border-radius: 50%;
+    background-color: #EDEFFF;
+    border: #E2E5FF solid 50px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+span{font-size: 30px;
+font-weight: 700;}
+#banner7 .plan1{
+  display: grid;
+  padding: 10px;
+  text-align: center;
+  height: 400;
+  width: 152px;
+  margin: 20px;
+}
+#banner8 .countainer{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding: 0px;
+  margin: auto;
+
+}
+#banner8 .heading{
+  height: 150px;
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+#banner8 .cardCountainer {
+    position: relative;
+    background-size: 150px;
+    width: 92%;
+    height: 434px;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#banner8 .card {
+    padding: 10px;
+    text-align: center;
+    height: 349px;
+    width: 359px;
+    align-items: left;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#banner8 .CardColumn{
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#banner8 .cardaction{
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+#banner8 .cardheader{
+  margin: 0;
+  text-align: center;
+}
+#banner4 .countainer{
+
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 171;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+}
+
+#banner9 .row{
+  position: relative ;  
+  background-size: 150px;
+  width: 80%;
+  height: 180px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#banner9 .item{
+  padding: 10px;
+     text-align: center;
+    height: 150px;
+    width: 300px;
+}
+#footer .countainer{
+  position: relative ;  
+  margin-top: 70px;  
+  background-size: 150px;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: auto;
+ 
+}
+#footer .column{
+  padding: 10px;
+  text-align: left;
+  height: 166px;
+  width: 310px;
+  align-items: left;
+  padding: 10px 20px;
+  margin:0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer .cardheader{
+color: white;
+margin: 0px;
+}
+#footer .cardp{
+  color: #3F3C43;
+}
+#footer .columnForm{
+
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+#footer .form-control{
+  display: block;
+  width: 80%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.columnForm .button{
+  background: linear-gradient(#64BBFD, #8195FF);
+  margin-left: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  width: 20%;
+}
+.columnForm #buttoni{
+  
+  color: antiquewhite;
+  text-align: center;
+  margin-left: 19px;
+  margin-top: 13px;
+}
+.column .columnicons{
+  color: antiquewhite;
+  position: relative ;  
+  background-size: 150px;
+  width: 56%;
+  height: 41px;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
